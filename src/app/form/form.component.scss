@@ -1,0 +1,58 @@
+.add {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__title {
+        margin: 0;
+    }
+    &__form {
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 0;
+        &-date {
+            display: flex;
+            flex-direction: column;
+            &-label {
+                text-align: center;
+            }
+            &-input {
+                max-width: 200px;
+                margin: 10px 0;
+            }
+        }
+        &-reviews {
+            width: 100%;
+            max-width: 500px;
+            &-blocks {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+            &-block {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                &-label {
+                    text-align: center;
+                }
+                &-input {
+                    margin: 10px 0;
+                    max-width: 200px;
+                }
+                &-button {
+                    margin: 10px 0;
+                }
+            }
+        }
+        &-button {
+            margin-top: 20px;
+        }
+    }
+}

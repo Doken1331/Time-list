@@ -1,0 +1,32 @@
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__post {
+        width: 100%;
+        max-width: 650px;
+        border: 1px solid #000;
+        padding: 30px;
+        margin: 30px 0;
+        &-date {
+            text-align: center;
+            margin: 0;
+        }
+        &-conclusion {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        &-reviews {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-block {
+                &-list {
+                    padding: 0 0 0 20px;
+                }
+            }
+        }
+    }
+}
