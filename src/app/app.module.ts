@@ -6,12 +6,11 @@ import { AppComponent } from './app.component';
 import { PostsComponent } from './posts/posts.component';
 import { FormComponent } from './form/form.component';
 import { FormsModule, FormControl, ReactiveFormsModule } from '@angular/forms';
-import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatInputModule} from '@angular/material/input';
+import {MatDatepickerModule} from '@angular/material/datepicker'
 import {MatNativeDateModule} from '@angular/material/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 
 @NgModule({
   declarations: [
